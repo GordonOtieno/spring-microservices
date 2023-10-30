@@ -21,6 +21,7 @@
   	<module>order-service</module>
   	<module>inventory-service</module>
   	<module>discovery-server</module>
+  	<module>inventory-microservice</module>
   </modules>
 
     <properties>
@@ -51,7 +52,7 @@
         </dependencies>
     </dependencyManagement>
     
-     <repositories>
+    <!-- <repositories>
         <repository>
             <id>netflix-candidates</id>
             <name>Netflix Candidates</name>
@@ -60,7 +61,7 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-    </repositories>
+    </repositories> -->
 
     <build>
         <plugins>
